@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="search-bar">
+        <input type="text" placeholder="Search...">
+        <button type="submit">Search</button>
+    </div>
+
+    <button id="nav-toggle">Sign In</button>
+
+    <nav id="main-nav">
+        <ul>
+            <li><a href="#weather">Weather App</a></li>
+            <li><a href="#calculator">Calculator</a></li>
+            <li><a href="#clock">Clock</a></li>
+            <li><a href="#temp-conv">Temperature Converter</a></li>
+        </ul>
+        <div class="auth-buttons">
+            <button class="auth-button">Sign In</button>
+            <button class="auth-button">Register</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <a href="weather.html" class="box weather" id="weather-box">WEATHER APP</a>
+        <a href="calculator.html" class="box calculator">CALCULATOR</a>
+        <a href="clock.html" class="box clock">CLOCK</a>
+        <a href="tempconverter.html" class="box temp-convert">TEMP. CONV</a>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
